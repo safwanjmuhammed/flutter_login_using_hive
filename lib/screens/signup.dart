@@ -20,7 +20,7 @@ class SignupScreen extends StatelessWidget {
           child: Stack(
         children: [
           const RiveAnimation.asset(
-            'assets/rive/space.riv',
+            'assets/rive/flying_car.riv',
             fit: BoxFit.cover,
           ),
           Positioned(
