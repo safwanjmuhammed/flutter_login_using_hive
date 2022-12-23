@@ -35,7 +35,13 @@ class HomeScreen extends StatelessWidget {
                               color: Colors.transparent.withOpacity(.1),
                               width: 2),
                           borderRadius: BorderRadius.circular(10)),
-                      child: Text("Welcome $email"),
+                      child: Column(
+                        children: [
+                          const SizedBox(height: 50),
+                          Icon(Icons.boy_rounded),
+                          Text("WELCOME $email")
+                        ],
+                      ),
                     ))
               ],
             ),
